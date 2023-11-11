@@ -1,7 +1,8 @@
 name: polyhedra_lint
-description: A sample command-line application.
+description: Shared library for common linting rules across Polyhedra projects
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: http://butterfree.lan:30130/dart/polyhedra-lint
+publish_to: http://butterfree.lan:30117
 
 environment:
   sdk: ^3.1.0
