@@ -1,8 +1,7 @@
 name: polyhedra_lint
 description: Shared library for common linting rules across Polyhedra projects
 version: 1.0.1
-repository: http://butterfree.lan:30130/dart/polyhedra-lint
-publish_to: http://butterfree.lan:30117
+repository: https://github.com/Polyhedra-Studio/Polyhedra-Dart-Lint.git
 
 environment:
   sdk: ^3.1.0
