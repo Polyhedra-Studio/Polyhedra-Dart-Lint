@@ -1,6 +1,6 @@
 name: polyhedra_lint
 description: Shared library for common linting rules across Polyhedra projects
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/Polyhedra-Studio/Polyhedra-Dart-Lint
 repository: https://github.com/Polyhedra-Studio/Polyhedra-Dart-Lint.git
 issue_tracker: https://github.com/Polyhedra-Studio/Polyhedra-Dart-Lint/issues
