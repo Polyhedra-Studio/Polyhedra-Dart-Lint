@@ -1,7 +1,9 @@
 name: polyhedra_lint
 description: Shared library for common linting rules across Polyhedra projects
-version: 1.0.1
+version: 1.0.2
+homepage: https://github.com/Polyhedra-Studio/Polyhedra-Dart-Lint
 repository: https://github.com/Polyhedra-Studio/Polyhedra-Dart-Lint.git
+issue_tracker: https://github.com/Polyhedra-Studio/Polyhedra-Dart-Lint/issues
 
 environment:
   sdk: ^3.1.0
@@ -9,3 +11,11 @@ environment:
 dependencies:
   flutter_lints: ^3.0.1
   lints: ^3.0.0
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
