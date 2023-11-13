@@ -3,7 +3,8 @@ include: package:lints/recommended.yaml
 linter:
   rules:
     always_use_package_imports: true
-    always_declare_return_types: true    avoid_escaping_inner_quotes: true
+    always_declare_return_types: true
+    avoid_escaping_inner_quotes: true
     avoid_multiple_declarations_per_line: true
     avoid_positional_boolean_parameters: true
     avoid_returning_this: true
