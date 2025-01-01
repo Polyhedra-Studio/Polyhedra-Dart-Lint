@@ -1,4 +1,4 @@
-## 1.1.0 (2025-01-01)
+## 2.0.0 (2025-01-01)
 - [PKG] Updated lints to 5.1.1.
 - [PKG] Updated flutter_lints to 5.0.0.
 - [META] Updated base SDK to 3.6.
