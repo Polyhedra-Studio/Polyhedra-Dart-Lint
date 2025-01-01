@@ -2,7 +2,6 @@ include: package:lints/recommended.yaml
 
 linter:
   rules:
-    always_use_package_imports: true
     always_declare_return_types: true
     avoid_escaping_inner_quotes: true
     avoid_multiple_declarations_per_line: true
@@ -21,13 +20,12 @@ linter:
     no_wildcard_variable_uses: true
     one_member_abstracts: true
     require_trailing_commas: true
-    prefer_const_constructors: true
     prefer_const_constructors_in_immutables: true
-    prefer_const_declarations: true
     prefer_const_literals_to_create_immutables: true
     prefer_constructors_over_static_methods: true
     prefer_final_locals: true
     prefer_void_to_null: true
+    unintended_html_in_doc_comment: true
 
     # -- JS-Sensitive Rules --
     avoid_js_rounded_ints: true
@@ -36,9 +34,19 @@ linter:
     # -- Turning default rules off --
     prefer_adjacent_string_concatenation: true
     prefer_function_declarations_over_variables: false
+    secure_pubspec_urls: false
 
     # -- Rules explicitly turned off --
     # Reason: Always_specify_types is overzealous
     always_specify_types: false
     # Reason: Linting rule sometimes does not work as expected
     avoid_bool_literals_in_conditional_expressions: false
+    # Reason: While typically a good idea, relative pathing is better for modules or tightly coupled files.
+    #         Unfortunately, this rule is all or nothing.
+    always_use_package_imports: false
+    # Reason: This is no longer recommended by the Flutter team and does not improve performance
+    #         nearly as much as expected, instead causing more work for the developer since this
+    #         linting rule often is set to auto-correct.
+    # Source: https://github.com/dart-lang/core/issues/833
+    prefer_const_constructors: false
+    prefer_const_declarations: false
